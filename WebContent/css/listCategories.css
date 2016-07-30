@@ -1,0 +1,48 @@
+@import
+	url(http://fonts.googleapis.com/css?family=Lato:400,300italic,300,400italic)
+	;
+
+@import
+	url(http://fonts.googleapis.com/css?family=Dancing+Script:400,700);
+
+@import
+	url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css)
+	;
+
+.title {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 20px 0;
+}
+
+.accordion-content {
+	width: 50%;
+	margin: 10px auto;
+}
+
+.accordion-title {
+	font-weight: 700;
+	background: #333;
+	color: #FFF;
+	display: block;
+	padding: 10px;
+	font-size: 24px
+}
+
+.accordion-title i {
+	margin-right: 10px;
+}
+
+.accordion-body {
+	font-family: 'Lato', sans-serif;
+	padding: 10px;
+	font-size: 14px;
+	background: #555;
+	color: #EEE;
+	display: none;
+}
+
+.accordion-body.open {
+	display: block;
+}
